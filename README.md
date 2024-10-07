@@ -15,4 +15,30 @@ This script allows you to download a YouTube video and upload it directly to you
 ## Required Libraries:
 Install the required libraries using:
 ```bash
-pip install yt-dlp google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
+pip install yt-dlp google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests 
+
+##Setup Instructions
+Follow these steps to set up and run the script:
+
+Clone the Repository: Open your terminal or command prompt and clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+Move Credentials File: Place your client_secrets.json file (the downloaded OAuth 2.0 credentials) into the project directory. You can rename it if needed but make sure to update the path in the script where it says path_to_your_client_secrets.json.
+
+Run the Script: Execute the script using Python. Open your terminal or command prompt and run:
+
+bash
+Copy code
+python your_script_name.py
+Authenticate with Google Drive: The first time you run the script, it will open a web browser window asking you to authenticate with your Google account and allow access to Google Drive. Follow the on-screen instructions.
+
+Enter YouTube Video URL: After authentication, the script will prompt you to enter the YouTube video URL you wish to download. Paste the URL and press Enter.
+
+Check Google Drive: Once the download is complete, the video will be uploaded to the ytvideo folder in your Google Drive. You can verify the upload by checking your Drive.
+
+Notes
+Ensure you have a stable internet connection while running the script, as it requires downloading the video and uploading it to Google Drive.
+If you encounter any errors, make sure that all libraries are installed correctly and that your OAuth 2.0 credentials are properly set up.
