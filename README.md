@@ -27,8 +27,8 @@ Follow these steps to set up and run the script:
 1. **Clone the Repository**:
    Open your terminal or command prompt and clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/Clay990/ytvideo.git
+   cd ytvideo
    ```
 
 2. **Move Credentials File**:
@@ -37,7 +37,7 @@ Follow these steps to set up and run the script:
 3. **Run the Script**:
    Execute the script using Python. Open your terminal or command prompt and run:
    ```bash
-   python your_script_name.py
+   python main.py
    ```
 
 4. **Authenticate with Google Drive**:
